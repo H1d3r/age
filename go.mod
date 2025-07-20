@@ -1,12 +1,12 @@
 module filippo.io/age
 
-go 1.19
+go 1.23.0
 
 require (
 	filippo.io/edwards25519 v1.1.0
-	golang.org/x/crypto v0.24.0
-	golang.org/x/sys v0.21.0
-	golang.org/x/term v0.21.0
+	golang.org/x/crypto v0.35.0
+	golang.org/x/sys v0.30.0
+	golang.org/x/term v0.29.0
 )
 
 // Test dependencies.
